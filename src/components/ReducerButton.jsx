@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import { Button, Span, Input } from "../styles";
+import { Button, Span } from "../styles";
 
-const ReducerPageButton = () => {
+const AsyncButton = () => {
     const navigate = useNavigate();
 
     const handleClick = (e) => {
@@ -12,9 +12,9 @@ const ReducerPageButton = () => {
 
     return (
         <Span>
-            <Button onClick={handleClick}>Input Parameter</Button>
+            <Button onClick={handleClick}>ReducerPage</Button>
         </Span>
     );
 }
 
-export default ReducerPageButton;
+export default AsyncButton;

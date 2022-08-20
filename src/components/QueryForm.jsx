@@ -20,7 +20,7 @@ const QueryButton = () => {
 
     return (
         <Span>
-            <Input value={query} onChange={((e) => setQuery(e.target.value))}/>
+            <Input placeholder="쿼리를 입력하세요!" value={query} onChange={((e) => setQuery(e.target.value))}/>
             <Button onClick={handleClick}>Input Query</Button>
         </Span>
     );

@@ -1,6 +1,8 @@
 import ParameterForm from "./ParameterForm";
 import QueryForm from"./QueryForm";
-import ReducerPageButton from  "./ReducerPageButton";
+import ReducerButton from  "./ReducerButton";
+import AsyncButton from "./ReducerButton";
+
 import { Home } from "../styles";
 
 const MainPage = () => {
@@ -8,7 +10,8 @@ const MainPage = () => {
         <Home>
             <ParameterForm />
             <QueryForm />
-            <ReducerPageButton />
+            <ReducerButton />
+            <AsyncButton />
         </Home>
     );
 }

@@ -5,7 +5,7 @@ const Main = styled.div`
     height: 100vh;
 
     display: grid;
-    all-items: center;
+    place-items: center;
 `
 
 

@@ -20,7 +20,7 @@ const ParameterButton = () => {
 
     return (
         <Span>
-            <Input value={parameter} onChange={((e) => setParameter(e.target.value))} />
+            <Input placeholder="파라미터를 입력하세요!" value={parameter} onChange={((e) => setParameter(e.target.value))} />
             <Button onClick={handleClick}>Input Parameter</Button>
         </Span>
     );
