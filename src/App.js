@@ -1,15 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ParameterButton } from "./components"
+import { ParameterButton, QueryButton } from "./components"
+import { Main } from "./styles"
 
 function App() {
   return (
-    <div className="App">
+    <Main>
       <Router>
         <Routes>
-          <Route path="/" element={<ParameterButton />} />
+          <Route path="/" element={[<ParameterButton />, <QueryButton />]} />
         </Routes>
       </Router>
-    </div>
+    </Main>
   );
 }
 
