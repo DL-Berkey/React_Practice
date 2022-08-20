@@ -9,7 +9,13 @@ const ParameterButton = () => {
     const handleClick = (e) => {
         e.preventDefault();
 
+        if (parameter === "") {
+            return;
+        }
+
         navigate(`/params/${parameter}`);
+
+        setParameter("")
     }
 
     return (

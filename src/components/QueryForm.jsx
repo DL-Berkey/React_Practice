@@ -9,7 +9,13 @@ const QueryButton = () => {
     const handleClick = (e) => {
         e.preventDefault();
         
+        if (query === "") {
+            return;
+        }
+
         navigate(`/query/?value=${query}`);
+
+        setQuery("")
     }
 
     return (
