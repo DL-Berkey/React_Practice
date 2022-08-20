@@ -8,14 +8,14 @@ const ParameterButton = () => {
 
     const handleClick = (e) => {
         e.preventDefault();
-        
-        navigate(`/${parameter}`);
+
+        navigate(`/params/${parameter}`);
     }
 
     return (
         <Span>
             <Input value={parameter} onChange={((e) => setParameter(e.target.value))} />
-            <Button onClick={handleClick}>Setting Parameter</Button>
+            <Button onClick={handleClick}>Input Parameter</Button>
         </Span>
     );
 }
