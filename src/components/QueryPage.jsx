@@ -1,6 +1,6 @@
 import { Link, useSearchParams} from "react-router-dom";
 import { Span } from "../styles";
-import { QueryForm } from ".";
+import QueryForm from "./QueryForm";
 
 const QueryPage = () => {
     const [ query, setQuery] = useSearchParams();

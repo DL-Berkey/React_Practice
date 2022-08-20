@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ParameterForm, QueryForm, ParameterPage, QueryPage } from "./components"
+import { HomePage, ParameterPage, QueryPage, ReducerPage } from "./components"
 import { Main } from "./styles"
 
 function App() {
@@ -7,9 +7,10 @@ function App() {
     <Main>
       <Router>
         <Routes>
-          <Route path="/" element={[<ParameterForm />, <QueryForm />]} />
-          <Route path="/params/:value" element={<ParameterPage />}></Route>
-          <Route path="/query" element={<QueryPage />}></Route>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/params/:value" element={<ParameterPage />} />
+          <Route path="/query" element={<QueryPage />} />
+          <Route path="/reducerpage" element={<ReducerPage />}/>
         </Routes>
       </Router>
     </Main>

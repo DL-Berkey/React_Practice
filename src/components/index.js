@@ -1,11 +1,11 @@
-import ParameterForm from "./ParameterForm";
-import QueryForm from "./QueryForm";
+import HomePage from "./HomePage";
 import ParameterPage from "./ParameterPage";
 import QueryPage from "./QueryPage";
+import ReducerPage from "./ReducerPage";
 
 export {
-    ParameterForm,
-    QueryForm,
+    HomePage,
     ParameterPage,
     QueryPage,
+    ReducerPage,
 }

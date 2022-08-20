@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { Span } from "../styles";
-import { ParameterForm } from ".";
+import ParameterForm from "./ParameterForm";
 
 const ParameterPage = () => {
     const params = useParams();
