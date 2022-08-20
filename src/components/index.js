@@ -1,7 +1,7 @@
-import ParameterButton from "./ParameterButton";
-import QueryButton from "./QueryButton";
+import ParameterForm from "./ParameterForm";
+import QueryForm from "./QueryForm";
 
 export {
-    ParameterButton,
-    QueryButton,
+    ParameterForm,
+    QueryForm,
 }

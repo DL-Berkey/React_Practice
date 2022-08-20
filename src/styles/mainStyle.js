@@ -4,7 +4,7 @@ const Main = styled.div`
     width: 100vw;
     height: 100vh;
 
-    postion: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
 `

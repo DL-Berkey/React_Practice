@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ParameterButton, QueryButton } from "./components"
+import { ParameterForm, QueryForm } from "./components"
 import { Main } from "./styles"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <Main>
       <Router>
         <Routes>
-          <Route path="/" element={[<ParameterButton />, <QueryButton />]} />
+          <Route path="/" element={[<ParameterForm />, <QueryForm />]} />
         </Routes>
       </Router>
     </Main>
