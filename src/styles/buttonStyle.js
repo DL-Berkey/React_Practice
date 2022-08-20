@@ -7,10 +7,6 @@ const Button = styled.button`
     color: white;
     font-size: 18px;
     border: none;
-
-    & + & {
-        margin-left: 30px;
-    }
 `
 
 export default Button;
