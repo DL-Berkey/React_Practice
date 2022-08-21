@@ -67,6 +67,7 @@ console.log("이 코드는 위의 비동기 작업들이 안끝나도 실행됨"
 const AsyncPage = () => {
     return (
         <Span>
+            <p>콘솔창을 확인해주세요!</p>
             <button onClick={() => window.location.reload()}>새로고침</button>
             <Link to="/">Home</Link>
         </Span>

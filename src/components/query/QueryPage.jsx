@@ -7,6 +7,7 @@ const QueryPage = () => {
 
     return (
         <Span>
+            <h1>URL을 확인해보세요!</h1>
             <p>당신이 입력한 쿼리: {query.get("value")}</p>
             <QueryForm />
             <Link to="/">Home</Link>
