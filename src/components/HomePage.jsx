@@ -1,7 +1,7 @@
-import ParameterForm from "./ParameterForm";
-import QueryForm from"./QueryForm";
-import ReducerButton from  "./ReducerButton";
-import AsyncButton from "./ReducerButton";
+import ParameterForm from "./parameter/ParameterForm";
+import QueryForm from"./query/QueryForm";
+import ReducerButton from  "./reducer/ReducerButton";
+import AsyncButton from "./async/AsyncButton";
 
 import { Home } from "../styles";
 
